@@ -1,0 +1,24 @@
+﻿<div class="jumbotron">
+    <h2>Transient Fault Handling Example</h2>
+</div>
+@if (ViewBag.DatabaseServer != null)
+{
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Database Server</h2>
+            <p>@ViewBag.DatabaseServer</p>
+        </div>
+        <div class="col-md-4">
+            <h2>Database Name</h2>
+            <p>@ViewBag.DatabaseName</p>
+        </div>
+        <div class="col-md-4">
+            <h2>Database Port</h2>
+            <p>@ViewBag.DatabasePort</p>
+        </div>
+    </div>
+}
+else
+{
+    <p>Failed to load configuration settings</p>
+}

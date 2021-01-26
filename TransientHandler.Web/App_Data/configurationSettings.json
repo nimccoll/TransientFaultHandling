@@ -1,0 +1,5 @@
+﻿{
+  "databaseServer": "MyDatabaseServer",
+  "databaseName": "MyDatabaseName",
+  "databasePort": "1433"
+}
